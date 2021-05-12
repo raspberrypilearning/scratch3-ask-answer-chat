@@ -1,59 +1,21 @@
-## Introduction
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+You can use the `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks from the `Sensing`{:class="block3sensing"} blocks menu to have a conversation.
 
-### What you will make
+Add blocks to a script on the sprite that will `ask`{:class="block3sensing"} a question:
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+```blocks3
+ask [Did you find everything you wanted today?] and wait
+if <(answer) = [yes]> then
+say [That's fantastic!] for [2] seconds
+else
+say [Maybe I should add more items to my shop] for [2] seconds
+end
+```
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+**Debug:** Check that you have spelled the options correctly in your code and in your answer. It's okay if you use capital letters, so "Yes" and "YES" will match "yes". 
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+Add multiple questions to create a chatbot or non-player character that you can talk to.
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+**Tip:** If you `hide`{:class="hide"} the sprite that asks a question, then question will appear inside the input box instead of as a speech bubble.
 
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+```
