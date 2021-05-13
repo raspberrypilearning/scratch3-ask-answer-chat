@@ -1,6 +1,8 @@
 
 You can use the `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks from the `Sensing`{:class="block3sensing"} blocks menu to have a conversation.
 
+![Ask dialogue with yes as input](images/ask-answer.png)
+
 Add blocks to a script on the sprite that will `ask`{:class="block3sensing"} a question:
 
 ```blocks3
@@ -17,5 +19,7 @@ end
 Add multiple questions to create a chatbot or non-player character that you can talk to.
 
 **Tip:** If you `hide`{:class="hide"} the sprite that asks a question, then question will appear inside the input box instead of as a speech bubble.
+
+![Ask dialogue with question inside](images/ask-hidden-sprite.png)
 
 ```
