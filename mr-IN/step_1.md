@@ -22,4 +22,3 @@ Add multiple questions to create a chatbot or non-player character that you can 
 
 ![Ask dialogue with question inside](images/ask-hidden-sprite.png)
 
-```
