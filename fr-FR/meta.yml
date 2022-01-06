@@ -1,11 +1,11 @@
 ---
-title: Chat using ask and answer
+title: Chat utilisant question et réponse
 hero_image: images/banner.png
-description: Create a chatbot or non-player character (NPC) using ask and answer blocks.
+description: Créer un chatbot ou un personnage non-joueur (PNJ) utilisant des blocs de question et de réponse.
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-05-12"
 steps:
   - 
-    title: Chat using ask and answer
+    title: Chat utilisant question et réponse
