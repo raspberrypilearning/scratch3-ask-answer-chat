@@ -1,9 +1,9 @@
 
-You can use the `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks from the `Sensing`{:class="block3sensing"} blocks menu to have a conversation.
+Galli di ddefnyddio'r blociau `gofyn`{:class="block3sensing"} ac `ateb`{:class="block3sensing"} o'r ddewislen blociau `Synhwyro`{:class="block3sensing"} i gael sgwrs.
 
-![Ask dialogue with yes as input](images/ask-answer.png)
+![Deialog gofyn gyda do fel mewnbwn](images/ask-answer.png)
 
-Add blocks to a script on the sprite that will `ask`{:class="block3sensing"} a question:
+Ychwanega'r blociau i sgript ar y corlun fydd yn `gofyn`{:class="block3sensing"} cwestiwn:
 
 ```blocks3
 ask [Did you find everything you wanted today?] and wait
@@ -14,11 +14,11 @@ say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
-**Debug:** Check that you have spelled the options correctly in your code and in your answer. It's okay if you use capital letters, so "Yes" and "YES" will match "yes".
+**Difa chwilod:** Gwna'n siŵr dy fod wedi sillafu'r opsiynau yn gywir yn dy god ac yn dy ateb. Mae'n iawn os wyt ti'n defnyddio priflythrennau, felly bydd "Do" a "DO" yn cyfateb i "do".
 
-Add multiple questions to create a chatbot or non-player character that you can talk to.
+Ychwanega fwy nag un cwestiwn i greu bot sgwrsio neu gymeriad nad yw'n chwaraewr y galli di siarad ag ef.
 
-**Tip:** If you `hide`{:class="hide"} the sprite that asks a question, then question will appear inside the input box instead of as a speech bubble.
+**Awgrym:** Os wyt ti'n `cuddio`{:class="hide"} y corlun sy'n gofyn cwestiwn, yna bydd cwestiwn yn ymddangos y tu mewn i'r blwch mewnbwn yn lle fel swigen siarad.
 
-![Ask dialogue with question inside](images/ask-hidden-sprite.png)
+![Deialog gofyn gyda cwestiwn ynddo](images/ask-hidden-sprite.png)
 
