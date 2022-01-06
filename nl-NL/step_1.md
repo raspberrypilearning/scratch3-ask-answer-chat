@@ -1,9 +1,9 @@
 
-You can use the `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks from the `Sensing`{:class="block3sensing"} blocks menu to have a conversation.
+Je kunt de `vraag`{:class="block3sensing"} en `antwoord`{:class="block3sensing"} blokken uit het `Waarnemen`{:class="block3sensing"} blokkenmenu gebruiken om een gesprek te voeren.
 
-![Ask dialogue with yes as input](images/ask-answer.png)
+![Dialoog vragen met ja als invoer](images/ask-answer.png)
 
-Add blocks to a script on the sprite that will `ask`{:class="block3sensing"} a question:
+Voeg blokken toe aan een script op de sprite die een `vraag`{:class="block3sensing"} wil stellen:
 
 ```blocks3
 ask [Did you find everything you wanted today?] and wait
@@ -14,11 +14,11 @@ say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
-**Debug:** Check that you have spelled the options correctly in your code and in your answer. It's okay if you use capital letters, so "Yes" and "YES" will match "yes".
+**Fouten opsporen:** Controleer of je de opties in je code en in je antwoord correct hebt gespeld. Het is niet erg als je hoofdletters gebruikt, dus "Ja" en "JA" zullen overeenkomen met "ja".
 
-Add multiple questions to create a chatbot or non-player character that you can talk to.
+Voeg meerdere vragen toe om een chatbot of een "niet-speler karakter" te maken waarmee je kunt praten.
 
-**Tip:** If you `hide`{:class="hide"} the sprite that asks a question, then question will appear inside the input box instead of as a speech bubble.
+**Tip:** Als je de sprite die een vraag stelt op `verdwijn`{:class="block3looks"} instelt, dan verschijnt de vraag in het invoerveld in plaats van als een tekstballon.
 
-![Ask dialogue with question inside](images/ask-hidden-sprite.png)
+![Vraagdialoog met een erin een vraag](images/ask-hidden-sprite.png)
 
