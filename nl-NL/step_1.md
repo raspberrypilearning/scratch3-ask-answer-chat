@@ -6,11 +6,11 @@ Je kunt de `vraag`{:class="block3sensing"} en `antwoord`{:class="block3sensing"}
 Voeg blokken toe aan een script op de sprite die een `vraag`{:class="block3sensing"} wil stellen:
 
 ```blocks3
-ask [Did you find everything you wanted today?] and wait
-if <(answer) = [yes]> then
-say [That's fantastic!] for [2] seconds
+ask [Heb je alles gevonden wat je vandaag nodig hebt?] and wait
+if <(answer) = [ja]> then
+say [Dat is fantastisch!] for [2] seconds
 else
-say [Maybe I should add more items to my shop] for [2] seconds
+say [Misschien moet ik meer items aan mijn winkel toevoegen] for [2] seconds
 end
 ```
 
