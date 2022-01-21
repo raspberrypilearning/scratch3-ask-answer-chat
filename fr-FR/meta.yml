@@ -1,0 +1,10 @@
+---
+title: Chat utilisant question et réponse
+hero_image: images/banner.png
+description: Créer un chatbot ou un personnage non-joueur (PNJ) utilisant des blocs de question et de réponse.
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-05-12"
+steps:
+  - title: Chat utilisant question et réponse
