@@ -18,7 +18,7 @@ end
 
 Ychwanega fwy nag un cwestiwn i greu bot sgwrsio neu gymeriad nad yw'n chwaraewr y galli di siarad ag ef.
 
-**Awgrym:** Os wyt ti'n `cuddio`{:class="hide"} y corlun sy'n gofyn cwestiwn, yna bydd cwestiwn yn ymddangos y tu mewn i'r blwch mewnbwn yn lle fel swigen siarad.
+**Tip:** If you `hide`{:class="block3looks"} the sprite that asks a question, then question will appear inside the input box instead of as a speech bubble.
 
 ![Deialog gofyn gyda cwestiwn ynddo](images/ask-hidden-sprite.png)
 
