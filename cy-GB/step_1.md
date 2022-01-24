@@ -18,7 +18,7 @@ end
 
 Ychwanega fwy nag un cwestiwn i greu bot sgwrsio neu gymeriad nad yw'n chwaraewr y galli di siarad ag ef.
 
-**Awgrym:** Os wyt ti'n `cuddio`{:class="hide"} y corlun sy'n gofyn cwestiwn, yna bydd cwestiwn yn ymddangos y tu mewn i'r blwch mewnbwn yn lle fel swigen siarad.
+**Awgrym:** Os wyt ti'n `cuddio`{:class="block3looks"} y corlun sy'n gofyn cwestiwn, yna bydd cwestiwn yn ymddangos y tu mewn i'r blwch mewnbwn yn lle fel swigen siarad.
 
 ![Deialog gofyn gyda cwestiwn ynddo](images/ask-hidden-sprite.png)
 

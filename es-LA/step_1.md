@@ -18,7 +18,7 @@ end
 
 Agrega varias preguntas para crear un chatbot o un personaje no jugador con el que puedas hablar.
 
-**Sugerencia:** Si usas `esconder`{:class="hide"} en el objeto que hace una pregunta, la pregunta aparecerá dentro del cuadro de entrada en lugar de como un burbuja de diálogo.
+**Sugerencia:** Si usas `esconder`{:class="block3looks"} en el objeto que hace una pregunta, la pregunta aparecerá dentro del cuadro de entrada en lugar de como un burbuja de diálogo.
 
 ![Diálogo del bloque preguntar con una pregunta dentro](images/ask-hidden-sprite.png)
 
