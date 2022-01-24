@@ -18,7 +18,7 @@ end
 
 Voeg meerdere vragen toe om een chatbot of een "niet-speler karakter" te maken waarmee je kunt praten.
 
-**Tip:** Als je de sprite die een vraag stelt op `verdwijn`{:class="block3looks"} instelt, dan verschijnt de vraag in het invoerveld in plaats van als een tekstballon.
+**Tip:** If you `hide`{:class="block3looks"} the sprite that asks a question, then question will appear inside the input box instead of as a speech bubble.
 
 ![Vraagdialoog met een erin een vraag](images/ask-hidden-sprite.png)
 
