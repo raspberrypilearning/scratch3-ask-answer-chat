@@ -18,7 +18,7 @@ end
 
 Add multiple questions to create a chatbot or non-player character that you can talk to.
 
-**Tip:** If you `hide`{:class="hide"} the sprite that asks a question, then question will appear inside the input box instead of as a speech bubble.
+**Tip:** If you `hide`{:class="block3looks"} the sprite that asks a question, then question will appear inside the input box instead of as a speech bubble.
 
 ![Ask dialogue with question inside](images/ask-hidden-sprite.png)
 

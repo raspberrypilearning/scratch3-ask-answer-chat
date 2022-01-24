@@ -18,7 +18,7 @@ end
 
 Ajoute plusieurs questions pour créer un chatbot ou un personnage non-joueur avec qui tu peux parler.
 
-**Astuce :** Si tu `caches`{:class="hide"} le sprite qui pose une question, alors la question apparaîtra à l'intérieur de la zone de saisie au lieu d'être sous forme de bulle de dialogue.
+**Astuce :** Si tu `caches`{:class="block3looks"} le sprite qui pose une question, alors la question apparaîtra à l'intérieur de la zone de saisie au lieu d'être sous forme de bulle de dialogue.
 
 ![Dialogue de demande avec la question à l'intérieur](images/ask-hidden-sprite.png)
 
