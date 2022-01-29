@@ -1,11 +1,11 @@
 ---
-title: Chat using ask and answer
+title: المحادثة باستخدام السؤال والجواب
 hero_image: images/banner.png
-description: Create a chatbot or non-player character (NPC) using ask and answer blocks.
+description: قم بإنشاء روبوت محادثة باستخدام لبنات الأسئلة والأجوبة من المقاطع البرمجية (لبنات الاستشعار).
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-05-12"
 steps:
   - 
-    title: Chat using ask and answer
+    title: المحادثة باستخدام السؤال والجواب
