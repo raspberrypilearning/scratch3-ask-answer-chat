@@ -1,9 +1,9 @@
 
-You can use the `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks from the `Sensing`{:class="block3sensing"} blocks menu to have a conversation.
+يمكنك استخدام لبنات `السؤال`{: class = "block3sensing"} و `الجواب`{: class = "block3sensing"} من قائمة لبنات`الاستشعار`{: class = "block3sensing"} لإجراء محادثة.
 
-![Ask dialogue with yes as input](images/ask-answer.png)
+![سوال الحوار مع كلمة "نعم" او "yes" كمدخلات](images/ask-answer.png)
 
-Add blocks to a script on the sprite that will `ask`{:class="block3sensing"} a question:
+إضافة لبنات الى المقطع البرمجي للكائن الذي`سيسأل`{: فئة = "block3sensing"} سؤال:
 
 ```blocks3
 ask [Did you find everything you wanted today?] and wait
@@ -14,11 +14,11 @@ say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
-**Debug:** Check that you have spelled the options correctly in your code and in your answer. It's okay if you use capital letters, so "Yes" and "YES" will match "yes".
+**التصحيح:** تأكد من كتابة الخيارات بشكل صحيح في التعليمات البرمجية الخاصة بك وفي إجابتك. لا بأس إذا كنت تستخدم الأحرف الكبيرة في اللغة الانكليزية، لذا فإن "Yes" و "YES" سيتطابقان مع "yes" .
 
-Add multiple questions to create a chatbot or non-player character that you can talk to.
+أضف أسئلة متعددة لإنشاء روبوت محادثة يمكنك التحدث إليها.
 
-**Tip:** If you `hide`{:class="block3looks"} the sprite that asks a question, then question will appear inside the input box instead of as a speech bubble.
+**نصيحة:** إذا قمت `بإخفاء`{: class = "إخفاء"} الكائن الذي يطرح سؤالاً ، فسيظهر السؤال داخل مربع الإدخال بدلاً من فقاعة كلام.
 
-![Ask dialogue with question inside](images/ask-hidden-sprite.png)
+![سوال الحوار مع السؤال في الداخل](images/ask-hidden-sprite.png)
 
