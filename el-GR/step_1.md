@@ -1,9 +1,9 @@
 
-You can use the `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks from the `Sensing`{:class="block3sensing"} blocks menu to have a conversation.
+Μπορείς να χρησιμοποιήσεις τα μπλοκ `ερώτηση`{:class="block3sensing"} και `απάντηση`{:class="block3sensing"} από το μενού μπλοκ `Αισθητήρες`{:class="block3sensing"} ώστε να έχεις μια συνομιλία.
 
-![Ask dialogue with yes as input](images/ask-answer.png)
+![Διάλογος ερώτησης με το ναι ως είσοδο](images/ask-answer.png)
 
-Add blocks to a script on the sprite that will `ask`{:class="block3sensing"} a question:
+Πρόσθεσε μπλοκ στο script του αντικειμένου που θα κάνει μια `ερώτηση`{:class="block3sensing"}:
 
 ```blocks3
 ask [Did you find everything you wanted today?] and wait
@@ -14,11 +14,11 @@ say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
-**Debug:** Check that you have spelled the options correctly in your code and in your answer. It's okay if you use capital letters, so "Yes" and "YES" will match "yes".
+**Αποσφαλμάτωση:** Έλεγξε ότι έχεις γράψει σωστά τις επιλογές στον κώδικά σου και στην απάντησή σου. Δεν πειράζει αν χρησιμοποίησες κεφαλαία γράμματα, οπότε το "Ναι" και το "ΝΑΙ" θα ταιριάζουν με το "ναι".
 
-Add multiple questions to create a chatbot or non-player character that you can talk to.
+Πρόσθεσε πολλές ερωτήσεις για να δημιουργήσεις έναν χαρακτήρα chatbot ή μη παίκτη με τον οποίο μπορείς να μιλήσεις.
 
-**Tip:** If you `hide`{:class="block3looks"} the sprite that asks a question, then question will appear inside the input box instead of as a speech bubble.
+**Συμβουλή:** Εάν `εξαφανίσεις`{:class="block3looks"}το αντικείμενο που κάνει μια ερώτηση, τότε η ερώτηση θα εμφανιστεί μέσα στο πλαίσιο εισαγωγής αντί ως συννεφάκι ομιλίας.
 
-![Ask dialogue with question inside](images/ask-hidden-sprite.png)
+![Διάλογος ερώτησης με ερώτηση εντός](images/ask-hidden-sprite.png)
 
