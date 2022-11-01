@@ -1,7 +1,7 @@
-total
+всього
 
-Kiran's Fresh Space
+Фреш Спейс Кірана
 
-yes
+так
 
-Would you like to pay or cancel?
+Бажаєте оплатити або скасувати замовлення?
