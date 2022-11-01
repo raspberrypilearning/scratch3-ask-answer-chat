@@ -1,9 +1,9 @@
 
-You can use the `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks from the `Sensing`{:class="block3sensing"} blocks menu to have a conversation.
+Ти можеш використовувати блоки `запитати`{:class="block3sensing"} та `відповідь`{:class="block3sensing"} з меню блоків `Датчики`{:class="block3sensing"}, щоб створити розмову.
 
-![Ask dialogue with yes as input](images/ask-answer.png)
+![Створи діалог, використовуючи «так» у якості вхідних даних](images/ask-answer.png)
 
-Add blocks to a script on the sprite that will `ask`{:class="block3sensing"} a question:
+Додай блоки до скрипту на спрайті, які будуть задавати `запитати`{:class="block3sensing"}:
 
 ```blocks3
 ask [Did you find everything you wanted today?] and wait
@@ -14,11 +14,11 @@ say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
-**Debug:** Check that you have spelled the options correctly in your code and in your answer. It's okay if you use capital letters, so "Yes" and "YES" will match "yes".
+**Налагодження:** переконайся, що ти правильно вказав варіанти відповідей у своєму коді та у відповідях. Можна використовувати великі літери, тоді «Так» і «ТАК» будуть збігатися з «так».
 
-Add multiple questions to create a chatbot or non-player character that you can talk to.
+Додай кілька запитань, щоб створити чат-бота або неігрового персонажа (Npc), з яким можна поспілкуватись.
 
-**Tip:** If you `hide`{:class="block3looks"} the sprite that asks a question, then question will appear inside the input box instead of as a speech bubble.
+**Порада:** якщо `сховати`{:class="block3looks"} спрайт, який задає питання, то питання з'явиться всередині поля введення, а не у вигляді мовної бульбашки.
 
-![Ask dialogue with question inside](images/ask-hidden-sprite.png)
+![Задати діалог із питанням всередині](images/ask-hidden-sprite.png)
 
