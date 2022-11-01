@@ -1,11 +1,11 @@
 ---
-title: Chat using ask and answer
+title: Чат з можливістю задавати та відповідати на запитання
 hero_image: images/banner.png
-description: Create a chatbot or non-player character (NPC) using ask and answer blocks.
+description: Створи чат-бота або неігрового персонажа (NPC) за допомогою блоків запитань і відповідей.
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-05-12"
 steps:
   - 
-    title: Chat using ask and answer
+    title: Чат з можливістю задавати та відповідати на запитання
