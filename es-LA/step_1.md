@@ -1,5 +1,5 @@
 
-Puedes usar los bloques `preguntar`{:class="block3sensing"} y `respuesta`{:class="block3sensing"} del menú de bloques `Sensores`{:class="block3sensing"} para tener una conversación.
+Puedes usar los bloques `pregunta`{:class="block3sensing"} y `respuesta`{:class="block3sensing"} del menú de bloques `Sensores`{:class="block3sensing"} para tener una conversación.
 
 ![Diálogo del bloque preguntar con un sí como entrada](images/ask-answer.png)
 
@@ -14,11 +14,11 @@ say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
-**Depurar:** Comprueba que has escrito las opciones correctamente en tu código y en tu respuesta. Está bien si usas letras mayúsculas, por lo que "Sí" y "SI" coincidirán con "sí".
+**Debug:** Comprueba que has escrito las opciones correctamente en tu código y en tu respuesta. Está bien si usas letras mayúsculas, por lo que "Sí" y "SI" coincidirán con "sí".
 
 Agrega varias preguntas para crear un chatbot o un personaje no jugador con el que puedas hablar.
 
-**Tip:** If you `hide`{:class="block3looks"} the sprite that asks a question, then question will appear inside the input box instead of as a speech bubble.
+**Consejo:** Si usas `esconder`{:class="block3looks"} en el objeto que hace una pregunta, esta aparecerá dentro del cuadro de entrada en lugar de como burbuja de diálogo.
 
 ![Diálogo del bloque preguntar con una pregunta dentro](images/ask-hidden-sprite.png)
 
