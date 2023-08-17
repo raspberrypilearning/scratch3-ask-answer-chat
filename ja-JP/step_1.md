@@ -1,9 +1,9 @@
 
-You can use the `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks from the `Sensing`{:class="block3sensing"} blocks menu to have a conversation.
+`調べる`{:class="block3sensing"}ブロックメニューの`聞く`{:class="block3sensing"}ブロックと`答え`{:class="block3sensing"}ブロックを使用すると、会話を行うことができます。
 
-![Ask dialogue with yes as input](images/ask-answer.png)
+![「はい」が入力された聞くダイアログ](images/ask-answer.png)
 
-Add blocks to a script on the sprite that will `ask`{:class="block3sensing"} a question:
+何か`聞く`{:class="block3sensing"}動作をさせたいスプライトのスクリプトにいくつかブロックを追加します。
 
 ```blocks3
 ask [Did you find everything you wanted today?] and wait
@@ -14,11 +14,11 @@ say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
-**Debug:** Check that you have spelled the options correctly in your code and in your answer. It's okay if you use capital letters, so "Yes" and "YES" will match "yes".
+**デバッグ:** コードと答えの選択肢が正しく書かれていることを確認してください。 選択肢を英語にする場合、大文字と小文字の区別はないので、"Yes"と"YES"は"yes"に一致します。
 
-Add multiple questions to create a chatbot or non-player character that you can talk to.
+複数の質問を追加して、会話ができるチャットボットやノンプレイヤーキャラクターを作りましょう。
 
-**Tip:** If you `hide`{:class="block3looks"} the sprite that asks a question, then question will appear inside the input box instead of as a speech bubble.
+**ヒント:** 質問するスプライトを`隠す`{:class="block3looks"}と、吹き出しの代わりに入力ボックス内に質問が表示されます。
 
-![Ask dialogue with question inside](images/ask-hidden-sprite.png)
+![質問が内部にある聞くダイアログ](images/ask-hidden-sprite.png)
 
