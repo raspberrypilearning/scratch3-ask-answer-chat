@@ -1,7 +1,7 @@
 total
 
-Kiran's Fresh Space
+El espacio nuevo de Kiran
 
-yes
+sí
 
-Would you like to pay or cancel?
+¿Quisieras pagar o cancelar?
