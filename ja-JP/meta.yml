@@ -1,0 +1,10 @@
+---
+title: '「聞く」と「答え」を使ったチャット'
+hero_image: images/banner.png
+description: '「聞く」と「答え」のブロックを使用して、チャットボットやノンプレイヤーキャラクター(NPC) を作ります。'
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-05-12"
+steps:
+  - title: '「聞く」と「答え」を使ったチャット'
