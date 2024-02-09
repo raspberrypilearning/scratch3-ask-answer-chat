@@ -1,5 +1,5 @@
 
-`調べる`{:class="block3sensing"}ブロックメニューの`聞く`{:class="block3sensing"}ブロックと`答え`{:class="block3sensing"}ブロックを使用すると、会話を行うことができます。
+ブロックメニューの`調べる`{:class="block3sensing"}から`聞く`{:class="block3sensing"}ブロックと`答え`{:class="block3sensing"}ブロックを使用すると、会話を行うことができます。
 
 ![「はい」が入力された聞くダイアログ](images/ask-answer.png)
 
