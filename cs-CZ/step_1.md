@@ -1,9 +1,9 @@
 
-You can use the `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks from the `Sensing`{:class="block3sensing"} blocks menu to have a conversation.
+Ke konverzaci můžete použít bloky `otázka`{:class="block3sensing"} a `odpověď`{:class="block3sensing"} z nabídky bloků `Vnímání`{:class="block3sensing"}.
 
-![Ask dialogue with yes as input](images/ask-answer.png)
+![Otázka v dialogu se vstupem ano](images/ask-answer.png)
 
-Add blocks to a script on the sprite that will `ask`{:class="block3sensing"} a question:
+Přidejte bloky do skriptu na postavě, která položí `otázku`{:class="block3sensing"}:
 
 ```blocks3
 ask [Did you find everything you wanted today?] and wait
@@ -14,11 +14,11 @@ say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
-**Debug:** Check that you have spelled the options correctly in your code and in your answer. It's okay if you use capital letters, so "Yes" and "YES" will match "yes".
+**Debugování:** Zkontrolujte, zda jste možnosti v kódu a ve své odpovědi napsali správně. Je v pořádku, pokud používáte velká písmena, takže „Ano“ a „ANO“ budou odpovídat „ano“.
 
-Add multiple questions to create a chatbot or non-player character that you can talk to.
+Přidejte více otázek a vytvořte chatbota nebo nehrající postavu, se kterou můžete mluvit.
 
-**Tip:** If you `hide`{:class="block3looks"} the sprite that asks a question, then question will appear inside the input box instead of as a speech bubble.
+**Tip:** Pokud použijete `skryj se`{:class="block3looks"} pro postavu, která pokládá otázku, objeví se otázka ve vstupním poli místo jako bublina.
 
-![Ask dialogue with question inside](images/ask-hidden-sprite.png)
+![Otázka ve vstupním poli](images/ask-hidden-sprite.png)
 
