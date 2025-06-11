@@ -1,9 +1,9 @@
 
-You can use the `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks from the `Sensing`{:class="block3sensing"} blocks menu to have a conversation.
+Puoi usare i blocchi `chiedi`{:class="block3sensing"} e `risposta`{:class="block3sensing"} dal menu dei blocchi `Sensori`{:class="block3sensing"} per avere una conversazione.
 
-![Ask dialogue with yes as input](images/ask-answer.png)
+![Finestra di dialogo del blocco chiedi con sì come input](images/ask-answer.png)
 
-Add blocks to a script on the sprite that will `ask`{:class="block3sensing"} a question:
+Aggiungi i blocchi a uno script sullo sprite per utilizzare il blocco `chiedi`{:class="block3sensing"} e fare una domanda:
 
 ```blocks3
 ask [Did you find everything you wanted today?] and wait
@@ -14,11 +14,11 @@ say [Maybe I should add more items to my shop] for [2] seconds
 end
 ```
 
-**Debug:** Check that you have spelled the options correctly in your code and in your answer. It's okay if you use capital letters, so "Yes" and "YES" will match "yes".
+**Debug:** controlla di aver scritto correttamente le opzioni nel tuo codice e nella tua risposta. Puoi utilizzare anche le lettere maiuscole. Ad esempio, "Sì" e "SÌ" corrisponderanno a "sì".
 
-Add multiple questions to create a chatbot or non-player character that you can talk to.
+Aggiungi più domande per creare un chatbot o un personaggio non giocante con cui puoi parlare.
 
-**Tip:** If you `hide`{:class="block3looks"} the sprite that asks a question, then question will appear inside the input box instead of as a speech bubble.
+**Suggerimento:** se `nascondi`{:class="block3looks"} lo sprite che fa la domanda, questa comparirà direttamente nella casella di testo invece che in un fumetto.
 
-![Ask dialogue with question inside](images/ask-hidden-sprite.png)
+![Finestra di dialogo del blocco chiedi con una domanda all'interno](images/ask-hidden-sprite.png)
 
